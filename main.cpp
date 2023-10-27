@@ -35,6 +35,6 @@ int main(){
   Person p1;
   p1.ParseFromString(str);
   std::cout<<"str.size"<<str.size()<<"name:"<<p1.name()<<",email:"<<p1.email()<<",id:"<<p1.id()<<std::endl;
- 
+  std::cout<<"---------------"<<endl;
   return 0;
 }
